@@ -1,36 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap and other CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>About Me</title>
-</head>
-<body>
-    <div id="container">
-        <header>
-            <section id="nav">
-                <h1 id="name">Cameron Davis</h1>
-                <p id="links"> <a href="index.html">About</a> | <a href="portfolio.html">Porfolio</a> | <a href="contact.html">Contact</a></p>
-            </section>
-        </header>
-        <div class="main">
-            <section class="content">
-                <h1 id="top">About Me</h1>
-                <hr>
-                <img id="photo" src="assets/images/cameron-photo.jpg" alt="Photo of Me">
-                <p class="text">Junior Software Developer with an extensive background in customer support. </p>
-                <p class="text">Studied Computer Science with an emphasis in game design at the University of Utah for 3 semesters. Currently completing a Full Stack Development certificate from the University of Utah. I enjoy working hard on a project and seeing the results when it’s completed. Able to adapt to new situations and learn new systems quickly. My career has taught me how and where to look for an answer. Skilled in programming languages including C#, C++, CSS, and Bootstrap.</p>
-                <p class="text">Passionate about game development and the worlds it creates. My end goal is to be a part of making something people enjoy.</p>
-            </section>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">            
+                <a class="navbar-brand" href="">Cameron Davis</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMain">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active ml-auto">
+                            <a class="nav-link" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>            
+            </div>
+        </nav>
+        <div class="container content">
+            <div class="card border-dark">
+                <div class="row no-gutters">
+                    <div class="col-md-2">
+                        <img src="assets/images/cameron-photo.jpg" class="card-img photo" alt="Photo of me">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <hr>
+                            <p class="card-text">Junior Software Developer with an extensive background in customer support. </p>
+                            <p class="card-text">Studied Computer Science with an emphasis in game design at the University of Utah for 3 semesters. Currently completing a Full Stack Development certificate from the University of Utah. I enjoy working hard on a project and seeing the results when it’s completed. Able to adapt to new situations and learn new systems quickly. My career has taught me how and where to look for an answer. Skilled in programming languages including C#, C++, CSS, and Bootstrap.</p>
+                            <p class="card-text">Passionate about game development and the worlds it creates. My end goal is to be a part of making something people enjoy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <footer>
-            <div id="copyright">
-                <p>Copyright</p>
-            </div> 
-        </footer>
-    </div>
-</body>
+        <footer class="bg-dark">
+            <div class="container">
+                <span>Copyright</span>             
+            </div>
+        </footer> 
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>

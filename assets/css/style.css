@@ -1,224 +1,81 @@
 body {
-    height: 100%;
-    color: #777777;
-    font-family: 'Nanum Gothic';
-}
-
-#top {
-    color: #4aaaa5;
-}
-
-hr {
-    border-top: 3px solid #cccccc;
-}
-
-header {
-    font-family: 'Shadows Into Light';
-    letter-spacing: 3px;
-    width: 100%;
-    height: 80px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #cccccc;
-}
-
-h1 {
-    font-family: 'Shadows Into Light';
-    letter-spacing: 3px;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px;
-}
-
-#nav {
-    width: 960px;
-    margin: 0 auto;
-}
-
-#name {
-    float: left;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin: 0px;
-    width: 190px;
-    padding: 28px;
-}
-
-#links {
-    float: left;
-    margin: 25px 0px 0px 452px;
-    width: 220px;
-    padding: 10px;
-}
-
-a:link {
-    color: #cccccc;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #4aaaa5;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #777777;
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: underline;
-}
-
-#container {
-    position: relative;
-    min-height: 100vh;
-}
-
-.main {
-    overflow: auto;
-    background-image: url(../images/brickwall/brickwall.png);
-    width: 100%;
-    min-height: 86vh;
-    padding: 20px 0px 50px 0px;
-    margin-bottom: -70px;
+    font-family: "Nanum Gothic";
+    background: url(../images/brickwall/brickwall.png);
 }
 
 .content {
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: #ffffff;
-    border-color: #dddddd;
-    width: 920px;
-    min-height: 50vh;
+}
+
+.navbar, .card-title {
+    font-family: "Shadows Into Light";
+    letter-spacing: 3px;
+}
+
+.navbar {
+    padding:0px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+.card {
     padding: 20px;
-    margin: 0 auto 50px auto;
+    border: none;
 }
 
-#photo {
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-right: 20px;
+.photo {
+    max-height: 160px;
+    max-width: 160px;
 }
 
-.text {
-    line-height: 18px;
-    margin-bottom: 10px;
+.portfolio {
+    padding: 0px;
+    margin-left: 25%;
+    width: 50%;
 }
 
-#portfolio {
-    position: relative;
+.portfolio-row {
+    width:100%;
     margin: 0px;
 }
 
-#hangman {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    padding: 5px 0px 5px 0px;
+.card-img-overlay {
     background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    top: 205px;
-    left: 130px;
+    padding: 5%;
+    margin-top: 60%;
+    height: 20%;
 }
 
-#rpg {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    padding: 5px 0px 5px 0px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    top: 205px;
-    right: 130px;
+.portfolio-link:link {
+    color: white;
 }
 
-#trivia {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    padding: 5px 0px 5px 0px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    top: 410px;
-    left: 130px;
+.portfolio-link:visited {
+    color: black;
 }
 
-#rutgers {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    padding: 5px 0px 5px 0px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    top: 410px;
-    right: 130px;
+.portfolio-link:hover {
+    color: gray;
 }
 
-#rps {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    padding: 5px 0px 5px 0px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    top: 620px;
-    left: 130px;
-}
-
-.icons {
-    float: left;
-    margin: 5px 130px 0px 130px;
-}
-
-.clearfix {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-label,input,textarea {
-    display: block;
-    margin-bottom: 10px;
-}
-
-label {
-    margin-top: 20px;  
-}
-
-input, textarea {
-    padding: 5px 10px 5px 10px;
-    width: 95%
-}
-
-textarea {
-    height: 200px;
-}
-
-#submit {
-    width: 150px;
-    padding: 5px 15px 5px 15px;
-    background-color: #4aaaa5;
-    border-color: #4aaaa5;
-    color: #ffffff;
+.portfolio-link:active {
+    color:red;
 }
 
 footer {
-    background-color: #666666;
-    border-top: 5px solid #4aaaa5;
-    position: relative;
+    position: fixed;
     bottom: 0;
-    width: 100%;
-    height: 4vh;
-    padding-top: 10px;
-}
-
-#copyright {
-    width: 960px;
     text-align: center;
-    padding-top: 2vh;
-    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    font-family: "Shadows Into Light";
+    letter-spacing: 3px;
+    color: #ffffff;
 }
