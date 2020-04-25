@@ -10,7 +10,7 @@ var groupCards = [dabbler];
 
 hangman.html("<div class='card portfolio'>" +
     "<img src='assets/images/picsum1021.jpg' class='card-img' alt='https://i.picsum.photos/id/1021/200/200.jpg'>" +
-    "<a href='https://magusconjurer.github.io/Word-Guess-Game/' class='portfolio-link'>" +
+    "<a href='https://magusconjurer.github.io/Word-Guess-Game/' class='portfolio-link' target=' '>" +
       "<div class='card-img-overlay'>" +
         "<h6 class='card-title text-center portfolioTitles'>Hangman</h6>" +
       "</div>" +
@@ -19,7 +19,7 @@ hangman.html("<div class='card portfolio'>" +
 
 rpgGame.html("<div class='card portfolio'>" +
   "<img src='assets/images/picsum1054.jpg' class='card-img' alt='https://i.picsum.photos/id/1054/200/200.jpg'>" +
-    "<a href='https://magusconjurer.github.io/unit-4-game/' class='portfolio-link'>" +
+    "<a href='https://magusconjurer.github.io/unit-4-game/' class='portfolio-link' target=' '>" +
       "<div class='card-img-overlay'>" +
         "<h6 class='card-title text-center portfolioTitles'>RPG Game</h6>" +
       "</div>" +
@@ -28,7 +28,7 @@ rpgGame.html("<div class='card portfolio'>" +
 
 trivia.html("<div class='card portfolio'>" +
     "<img src='assets/images/picsum1038.jpg' class='card-img' alt='https://i.picsum.photos/id/1038/200/200.jpg'>" +
-    "<a href='https://magusconjurer.github.io/TriviaGame/' class='portfolio-link'>" +
+    "<a href='https://magusconjurer.github.io/TriviaGame/' class='portfolio-link' target=' '>" +
       "<div class='card-img-overlay'>" +
         "<h6 class='card-title text-center portfolioTitles'>Shakespeare Trivia</h6>" +
       "</div>" +
@@ -37,7 +37,7 @@ trivia.html("<div class='card portfolio'>" +
 
 gifSearch.html("<div class='card portfolio'>" +
   "<img src='assets/images/picsum1041.jpg' class='card-img' alt='https://i.picsum.photos/id/1041/200/200.jpg'>" +
-    "<a href='https://magusconjurer.github.io/unit-6-ajax/' class='portfolio-link'>" +
+    "<a href='https://magusconjurer.github.io/unit-6-ajax/' class='portfolio-link' target=' '>" +
       "<div class='card-img-overlay'>" +
         "<h6 class='card-title text-center portfolioTitles'>GIF Search</h6>" +
       "</div>" +
@@ -46,7 +46,7 @@ gifSearch.html("<div class='card portfolio'>" +
 
 train.html("<div class='card portfolio'>" +
   "<img src='assets/images/picsum1044.jpg' class='card-img' alt='https://i.picsum.photos/id/1044/200/200.jpg'>" +
-    "<a href='https://magusconjurer.github.io/Train-Scheduler/' class='portfolio-link'>" +
+    "<a href='https://magusconjurer.github.io/Train-Scheduler/' class='portfolio-link' target=' '>" +
       "<div class='card-img-overlay'>" +
         "<h6 class='card-title text-center portfolioTitles'>Train Scheduler</h6>" +
       "</div>" +
@@ -55,7 +55,7 @@ train.html("<div class='card portfolio'>" +
 
 dabbler.html("<div class='card portfolio'>" +
   "<img src='assets/images/picsum117.jpg' class='card-img' alt='https://i.picsum.photos/id/117/200/200.jpg'>" +
-    "<a href='https://magusconjurer.github.io/dabbler/' class='portfolio-link'>" +
+    "<a href='https://magusconjurer.github.io/dabbler/' class='portfolio-link' target=' '>" +
       "<div class='card-img-overlay'>" +
         "<h6 class='card-title text-center portfolioTitles'>Dabbler</h6>" +
       "</div>" +

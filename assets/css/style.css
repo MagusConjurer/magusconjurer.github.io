@@ -36,6 +36,27 @@ body {
   max-width: 160px;
 }
 
+#otherPages {
+  display: block;
+  text-align: center;
+}
+
+.indexLinks:link {
+  color: white;
+}
+
+.indexLinks:visited {
+  color: gray;
+}
+
+.indexLinks:hover {
+  color: darkgray;
+}
+
+.indexLinks:active {
+  color:#4aaaa5;
+}
+
 .portfolio {
   padding: 0px;
   margin-left: 25%;
