@@ -103,6 +103,10 @@ footer {
   .portfolioTitles {
     font-size: 18px;
   }
+  .photo {
+    display: block;
+    margin: 0px auto;
+  }
 }
 
 @media screen and (max-width:459px){
