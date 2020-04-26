@@ -36,24 +36,24 @@ body {
   max-width: 160px;
 }
 
-#otherPages {
+.otherPages {
   display: block;
   text-align: center;
 }
 
-.indexLinks:link {
+.links:link {
   color: white;
 }
 
-.indexLinks:visited {
-  color: gray;
+.links:visited {
+  color: #A7C8C6;
 }
 
-.indexLinks:hover {
-  color: darkgray;
+.links:hover {
+  color: #84DFDB;
 }
 
-.indexLinks:active {
+.links:active {
   color:#4aaaa5;
 }
 
@@ -76,24 +76,8 @@ body {
 .card-img-overlay {
   background-color: #4aaaa5;
   padding: 5%;
-  margin-top: 60%;
-  height: 20%;
-}
-
-.portfolio-link:link {
-  color: white;
-}
-
-.portfolio-link:visited {
-  color: black;
-}
-
-.portfolio-link:hover {
-  color: gray;
-}
-
-.portfolio-link:active {
-  color:red;
+  margin-top: 40%;
+  height: 35%;
 }
 
 footer {
