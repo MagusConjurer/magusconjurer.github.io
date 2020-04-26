@@ -112,10 +112,21 @@ footer {
     display: block;
     margin: 0px auto;
   }
+  footer {
+    height: 6vh;
+    padding-top: 2vh;
+  }
 }
 
 @media screen and (max-width:459px){
   .portfolioTitles {
     font-size: 2.5vw;
+  }
+  .otherPages {
+    font-size: 3vw;
+  }
+  footer {
+    height: 6vh;
+    padding-top: 2vh;
   }
 }
