@@ -5,8 +5,9 @@ var gifSearch = $("<div>").addClass("col mb-4");
 var train = $("<div>").addClass("col mb-4");
 var dabbler = $("<div>").addClass("col mb-4");
 var liri = $("<div>").addClass("col mb-4");
+var wordCLI = $("<div>").addClass("col mb-4");
 
-var personalCards = [liri, train, gifSearch, trivia, rpgGame, hangman];
+var personalCards = [wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
 var groupCards = [dabbler];
 
 hangman.html("<div class='card portfolio'>" +
@@ -81,6 +82,16 @@ liri.html("<div class='card portfolio'>" +
       "<h6 class='card-title text-center portfolioTitles'>LIRI</h6>" +
       "<p class='otherPages'>" +
         "<a href='https://github.com/MagusConjurer/liri-node-app' class='links' target=' '>GitHub</a>" +
+      "</p>" +
+    "</div>" +
+  "</div>"); 
+
+wordCLI.html("<div class='card portfolio'>" +
+  "<img src='assets/images/picsum202.jpg' class='card-img' alt='https://i.picsum.photos/id/140/200/200.jpg'>" +
+    "<div class='card-img-overlay'>" +
+      "<h6 class='card-title text-center portfolioTitles'>CLI Word Guess</h6>" +
+      "<p class='otherPages'>" +
+        "<a href='https://github.com/MagusConjurer/cli-word-guess' class='links' target=' '>GitHub</a>" +
       "</p>" +
     "</div>" +
   "</div>"); 
