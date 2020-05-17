@@ -1,17 +1,19 @@
-var hangman = $("<div>").addClass("col mb-4");
-var rpgGame = $("<div>").addClass("col mb-4");
-var trivia = $("<div>").addClass("col mb-4");
-var gifSearch = $("<div>").addClass("col mb-4");
-var train = $("<div>").addClass("col mb-4");
-var dabbler = $("<div>").addClass("col mb-4");
-var liri = $("<div>").addClass("col mb-4");
-var wordCLI = $("<div>").addClass("col mb-4");
+var hangman = $("<div>").addClass("col mb-4"),
+    rpgGame = $("<div>").addClass("col mb-4"), 
+    trivia = $("<div>").addClass("col mb-4"), 
+    gifSearch = $("<div>").addClass("col mb-4"), 
+    train = $("<div>").addClass("col mb-4"), 
+    dabbler = $("<div>").addClass("col mb-4"), 
+    liri = $("<div>").addClass("col mb-4"), 
+    wordCLI = $("<div>").addClass("col mb-4"), 
+    bamazon = $("<div>").addClass("col mb-4");
 
-var personalCards = [wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
+var personalCards = [bamazon, wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
 var groupCards = [dabbler];
+var picsumImages = [11, 16, 117, 140, 202, 1021, 1037, 1038, 1041, 1044, 1054];
 
 hangman.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum1021.jpg' class='card-img' alt='https://i.picsum.photos/id/1021/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[0] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[0] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>Hangman</h6>" +
       "<p class='otherPages'>" +
@@ -22,7 +24,7 @@ hangman.html("<div class='card portfolio'>" +
   "</div>");
 
 rpgGame.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum1054.jpg' class='card-img' alt='https://i.picsum.photos/id/1054/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[1] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[1] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>RPG Game</h6>" +
       "<p class='otherPages'>" +
@@ -33,7 +35,7 @@ rpgGame.html("<div class='card portfolio'>" +
   "</div>");
 
 trivia.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum1038.jpg' class='card-img' alt='https://i.picsum.photos/id/1038/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[2] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[2] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>Shakespeare Trivia</h6>" +
       "<p class='otherPages'>" +
@@ -44,7 +46,7 @@ trivia.html("<div class='card portfolio'>" +
   "</div>");
 
 gifSearch.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum1041.jpg' class='card-img' alt='https://i.picsum.photos/id/1041/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[3] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[3] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>GIF Search</h6>" +
       "<p class='otherPages'>" +
@@ -55,7 +57,7 @@ gifSearch.html("<div class='card portfolio'>" +
   "</div>");
 
 train.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum1044.jpg' class='card-img' alt='https://i.picsum.photos/id/1044/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[4] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[4] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>Train Scheduler</h6>" +
       "<p class='otherPages'>" +
@@ -66,7 +68,7 @@ train.html("<div class='card portfolio'>" +
   "</div>");
 
 dabbler.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum117.jpg' class='card-img' alt='https://i.picsum.photos/id/117/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[5] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[5] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>Dabbler</h6>" +
       "<p class='otherPages'>" +
@@ -77,7 +79,7 @@ dabbler.html("<div class='card portfolio'>" +
   "</div>");
 
 liri.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum202.jpg' class='card-img' alt='https://i.picsum.photos/id/202/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[6] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[6] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>LIRI</h6>" +
       "<p class='otherPages'>" +
@@ -87,11 +89,21 @@ liri.html("<div class='card portfolio'>" +
   "</div>"); 
 
 wordCLI.html("<div class='card portfolio'>" +
-  "<img src='assets/images/picsum202.jpg' class='card-img' alt='https://i.picsum.photos/id/140/200/200.jpg'>" +
+  "<img src='assets/images/picsum" + picsumImages[7] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[7] + "/200/200.jpg'>" +
     "<div class='card-img-overlay'>" +
       "<h6 class='card-title text-center portfolioTitles'>CLI Word Guess</h6>" +
       "<p class='otherPages'>" +
         "<a href='https://github.com/MagusConjurer/cli-word-guess' class='links' target=' '>GitHub</a>" +
+      "</p>" +
+    "</div>" +
+  "</div>"); 
+
+bamazon.html("<div class='card portfolio'>" +
+  "<img src='assets/images/picsum" + picsumImages[8] + ".jpg' class='card-img' alt='https://i.picsum.photos/id/" + picsumImages[8] + "/200/200.jpg'>" +
+    "<div class='card-img-overlay'>" +
+      "<h6 class='card-title text-center portfolioTitles'>Bamazon</h6>" +
+      "<p class='otherPages'>" +
+        "<a href='https://github.com/MagusConjurer/bamazon' class='links' target=' '>GitHub</a>" +
       "</p>" +
     "</div>" +
   "</div>"); 
