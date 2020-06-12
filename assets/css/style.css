@@ -39,6 +39,7 @@ body {
 .otherPages {
   display: block;
   text-align: center;
+  padding: 5px;
 }
 
 .links:link {
@@ -58,26 +59,26 @@ body {
 }
 
 .portfolio {
-  padding: 0px;
-  margin-left: 25%;
-  width: 50%;
+  width: 100%;
+}
+
+.portfolio-title {
+  background-color: #4aaaa5;
+  margin: -19px 0px 0px 0px;
+  padding: 5px;
 }
 
 .portfolio-row {
-  width:100%;
+  margin: 0px;
+}
+
+.portfolio-img {
   margin: 0px;
 }
 
 #portfolioBtns {
   text-align: center;
   margin: 20px 0px;
-}
-
-.card-img-overlay {
-  background-color: #4aaaa5;
-  padding: 5%;
-  margin-top: 40%;
-  height: 35%;
 }
 
 footer {

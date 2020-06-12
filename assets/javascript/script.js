@@ -108,28 +108,28 @@ bamazon.html("<div class='card portfolio'>" +
     "</div>" +
   "</div>"); 
 
-function loadCards(type){
-  if(type == "personal"){
-    $("#portfolioDeck").empty();
-    for(var i = 0; i < personalCards.length; i++){
-      $("#portfolioDeck").append(personalCards[i]);
-    }
-  } else if (type == "group") {
-    $("#portfolioDeck").empty();
-    for(var i = 0; i < groupCards.length; i++){
-      $("#portfolioDeck").append(groupCards[i]);
-    }
-  }
-};
+// function loadCards(type){
+//   if(type == "personal"){
+//     $("#portfolioDeck").empty();
+//     for(var i = 0; i < personalCards.length; i++){
+//       $("#portfolioDeck").append(personalCards[i]);
+//     }
+//   } else if (type == "group") {
+//     $("#portfolioDeck").empty();
+//     for(var i = 0; i < groupCards.length; i++){
+//       $("#portfolioDeck").append(groupCards[i]);
+//     }
+//   }
+// };
 
 
-$(document).ready(loadCards("personal"));
+// $(document).ready(loadCards("personal"));
 
 
-$(document).on("click", "#personalBtn", function(){
-  loadCards("personal");
-});
+// $(document).on("click", "#personalBtn", function(){
+//   loadCards("personal");
+// });
 
-$(document).on("click", "#groupBtn", function(){
-  loadCards("group");
-});
+// $(document).on("click", "#groupBtn", function(){
+//   loadCards("group");
+// });
