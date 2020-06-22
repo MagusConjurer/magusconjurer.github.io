@@ -25,7 +25,7 @@ body {
 }
 
 .card {
-  padding: 20px;
+  padding: 15px;
   border: none;
   color: #ffffff;
   background-color: #202020;
@@ -68,11 +68,7 @@ body {
   padding: 5px;
 }
 
-.portfolio-row {
-  margin: 0px;
-}
-
-.portfolio-img {
+.portfolio-row, .portfolio-img {
   margin: 0px;
 }
 
