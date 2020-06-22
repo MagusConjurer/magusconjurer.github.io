@@ -108,65 +108,83 @@
 //     "</div>" +
 //   "</div>");
 
-
 var bamazon = {
   name: "Bamazon",
+  source: "/assets/images/dabbler.png",
+  alt: "Bamazon project image",
   app: "''",
   repo: "'https://github.com/MagusConjurer/bamazon'",
   description: "A CLI Node app that is an Amazon-like storefront with a MySQL database behind it."
 };
 
-var personalCards = [bamazon] //, wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
-// var groupCards = [dabbler];
+var liri = {
+  name: "LIRI",
+  source: "/assets/images/liri.png",
+  alt: "Liri project image",
+  app: "''",
+  repo: "'https://github.com/MagusConjurer/https://github.com/MagusConjurer/liri-node-app'",
+  description: "A LIRI app that will search Spotify for songs, Bands in Town for concerts, and OMDB for movies."
+};
+
+var dabbler = {
+  name: "Dabbler",
+  source: "/assets/images/dabbler.png",
+  alt: "Dabbler project image",
+  app: "'https://magusconjurer.github.io/dabbler/'",
+  repo: "'https://github.com/MagusConjurer/dabbler'",
+  description: "A webpage designed to recommend content based on your favorite movie, book, music or video game."
+};
+
+var personalCards = [bamazon, liri] //, wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
+var groupCards = [dabbler];
 
 function createCards (projects) {
   var projectCard = $("<div>").addClass("row no-gutters");
   projects.forEach(project => {
     var addApp
-    if (project.app === "''") {
+    if (project.app !== "''") {
       addApp = "<a href=" + project.app + " class='links' target=' '>App</a> | ";
     } else {
       addApp = "";
     }
     projectCard.html(projectCard.html() +
-    "<div class='col-md-1'>" +
-      "<img src='assets/images/cameron-photo.jpg' class='card-img portfolio-img' alt='Photo of project'>" +
-    "</div>" +
-    "<div class='col-md-5'>" +
-      "<div class='card-body'>" +
-        "<h5 class='card-title portfolio-title'>" + project.name + "</h5>" +
-        "<p class='otherPages'>" +
-          addApp +
-          "<a href=" + project.repo + " class='links' target=' '>GitHub</a>" +
-        "</p>" +
-        "<p class='card-text'>" + project.description + "</p>" +
+    "<div class='card col-md-5 portfolio-card'>" +
+      "<div class='row portfolio-row'>" +
+        "<div class='col-md-2'>" +
+          "<img src='" + project.source + "' class='card-img portfolio-img' alt='" + project.alt + "'>" +
+        "</div>" +
+        "<div class='col-md-10'>" +
+          "<div class='card-body'>" +
+            "<h5 class='card-title portfolio-title'>" + project.name + "</h5>" +
+            "<p class='otherPages'>" +
+              addApp +
+              "<a href=" + project.repo + " class='links' target=' '>GitHub</a>" +
+            "</p>" +
+            "<p class='card-text'>" + project.description + "</p>" +
+          "</div>" +
+        "</div>" +
       "</div>" +
     "</div>");
-    $("#portfolioDeck").append(projectCard);
   });
+  $("#portfolioDeck").append(projectCard);
 };
 
 function loadCards (type) {
   if (type === "personal") {
     $("#portfolioDeck").empty();
-    for (let i = 0; i < personalCards.length; i++) {
-      createCards(personalCards);
-    }
+    createCards(personalCards);
   } else if (type === "group") {
     $("#portfolioDeck").empty();
-    for (let i = 0; i < groupCards.length; i++) {
-      createCards(groupCards);
-    }
+    createCards(groupCards);
   }
 };
 
 $(document).ready(loadCards("personal"));
 
+$(document).on("click", "#personalBtn", function () {
+  loadCards(personalCards);
+});
 
-// $(document).on("click", "#personalBtn", function(){
-//   loadCards("personal");
-// });
-
-// $(document).on("click", "#groupBtn", function(){
-//   loadCards("group");
-// });
+$(document).on("click", "#groupBtn", function () {
+  loadCards(groupCards);
+});

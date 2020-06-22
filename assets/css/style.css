@@ -25,7 +25,7 @@ body {
 }
 
 .card {
-  padding: 15px;
+  padding: 0px;
   border: none;
   color: #ffffff;
   background-color: #202020;
@@ -58,9 +58,10 @@ body {
   color:#4aaaa5;
 }
 
-.portfolio {
-  width: 100%;
-}
+.portfolio-card {
+  background-color: #343a40;
+  padding: 15px;
+  margin: 10px 4%}
 
 .portfolio-title {
   background-color: #4aaaa5;
