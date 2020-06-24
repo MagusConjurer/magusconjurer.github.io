@@ -110,7 +110,7 @@
 
 var bamazon = {
   name: "Bamazon",
-  source: "/assets/images/dabbler.png",
+  source: "./assets/images/bamazon.png",
   alt: "Bamazon project image",
   app: "''",
   repo: "'https://github.com/MagusConjurer/bamazon'",
@@ -119,7 +119,7 @@ var bamazon = {
 
 var liri = {
   name: "LIRI",
-  source: "/assets/images/liri.png",
+  source: "./assets/images/liri.png",
   alt: "Liri project image",
   app: "''",
   repo: "'https://github.com/MagusConjurer/https://github.com/MagusConjurer/liri-node-app'",
@@ -128,7 +128,7 @@ var liri = {
 
 var dabbler = {
   name: "Dabbler",
-  source: "/assets/images/dabbler.png",
+  source: "./assets/images/dabbler.png",
   alt: "Dabbler project image",
   app: "'https://magusconjurer.github.io/dabbler/'",
   repo: "'https://github.com/MagusConjurer/dabbler'",
@@ -182,9 +182,9 @@ function loadCards (type) {
 $(document).ready(loadCards("personal"));
 
 $(document).on("click", "#personalBtn", function () {
-  loadCards(personalCards);
+  loadCards("personal");
 });
 
 $(document).on("click", "#groupBtn", function () {
-  loadCards(groupCards);
+  loadCards("group");
 });
