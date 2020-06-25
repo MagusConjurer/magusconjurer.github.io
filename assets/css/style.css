@@ -42,12 +42,9 @@ body {
   padding: 5px;
 }
 
-.links:link {
-  color: white;
-}
-
-.links:visited {
+.links:link, .links:visited {
   color: #A7C8C6;
+  text-decoration: underline;
 }
 
 .links:hover {
@@ -61,7 +58,8 @@ body {
 .portfolio-card {
   background-color: #343a40;
   padding: 15px;
-  margin: 10px 4%}
+  margin: 10px 4%
+}
 
 .portfolio-title {
   background-color: #4aaaa5;
@@ -69,9 +67,18 @@ body {
   padding: 5px;
 }
 
+.popover-content {
+  background-color: none;
+}
+
 .portfolio-row, .portfolio-img {
   margin: 0px;
 }
+
+.portfolioCol, .portfolioBody {
+  padding: 5px;
+}
+
 
 #portfolioBtns {
   text-align: center;

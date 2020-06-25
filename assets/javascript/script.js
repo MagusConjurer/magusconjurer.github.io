@@ -150,11 +150,11 @@ function createCards (projects) {
     projectCard.html(projectCard.html() +
     "<div class='card col-md-5 portfolio-card'>" +
       "<div class='row portfolio-row'>" +
-        "<div class='col-md-2'>" +
-          "<img src='" + project.source + "' class='card-img portfolio-img' alt='" + project.alt + "'>" +
+        "<div class='col-md-2 portfolioCol'>" +
+          "<img src='" + project.source + "' class='card-img portfolio-img' alt='" + project.alt + "' data-toggle='popover' data-img='" + project.source + "'>" +
         "</div>" +
-        "<div class='col-md-10'>" +
-          "<div class='card-body'>" +
+        "<div class='col-md-10 portfolioCol'>" +
+          "<div class='card-body portfolioBody'>" +
             "<h5 class='card-title portfolio-title'>" + project.name + "</h5>" +
             "<p class='otherPages'>" +
               addApp +
@@ -179,7 +179,15 @@ function loadCards (type) {
   }
 };
 
-$(document).ready(loadCards("personal"));
+$(document).ready(function () {
+  loadCards("personal");
+  $("[data-toggle='popover']").popover({
+    container: "body",
+    html: true,
+    trigger: "hover",
+    content: function () { return "<img src='" + $(this).data("img") + "' />"; }
+  });
+});
 
 $(document).on("click", "#personalBtn", function () {
   loadCards("personal");
