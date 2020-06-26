@@ -122,7 +122,7 @@ var bamazon = {
 
 var liri = {
   name: "LIRI",
-  source: "./assets/images/liri.png",
+  source: "./assets/images/LIRI.png",
   alt: "Liri project image",
   app: "''",
   repo: "'https://github.com/MagusConjurer/liri-node-app'",
