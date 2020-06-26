@@ -182,12 +182,14 @@ function loadCards(type) {
 $(document).ready(function() {
   loadCards("personal");
   $(document).on("mouseenter", "[data-toggle='popover']", function() {
-    $(this).popover({
-      container: "body",
-      html: true,
-      trigger: "hover",
-      content: function() { return "<img src='" + $(this).data("img") + "' />"; }
-    });
+    if (!$(this).data("popover")) {
+      $(this).popover({
+        container: "body",
+        html: true,
+        trigger: "hover",
+        content: function() { return "<img src='" + $(this).data("img") + "' />"; }
+      }).triggerHandler("mouseenter");
+    }
   });
 });
 
