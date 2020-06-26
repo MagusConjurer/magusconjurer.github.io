@@ -138,7 +138,7 @@ var dabbler = {
 var personalCards = [bamazon, liri] //, wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
 var groupCards = [dabbler];
 
-function createCards (projects) {
+function createCards(projects) {
   var projectCard = $("<div>").addClass("row no-gutters");
   projects.forEach(project => {
     var addApp
@@ -169,7 +169,7 @@ function createCards (projects) {
   $("#portfolioDeck").append(projectCard);
 };
 
-function loadCards (type) {
+function loadCards(type) {
   if (type === "personal") {
     $("#portfolioDeck").empty();
     createCards(personalCards);
@@ -179,20 +179,22 @@ function loadCards (type) {
   }
 };
 
-$(document).ready(function () {
+$(document).ready(function() {
   loadCards("personal");
-  $("[data-toggle='popover']").popover({
-    container: "body",
-    html: true,
-    trigger: "hover",
-    content: function () { return "<img src='" + $(this).data("img") + "' />"; }
+  $(document).on("mouseenter", "[data-toggle='popover']", function() {
+    $(this).popover({
+      container: "body",
+      html: true,
+      trigger: "hover",
+      content: function() { return "<img src='" + $(this).data("img") + "' />"; }
+    });
   });
 });
 
-$(document).on("click", "#personalBtn", function () {
+$(document).on("click", "#personalBtn", function() {
   loadCards("personal");
 });
 
-$(document).on("click", "#groupBtn", function () {
+$(document).on("click", "#groupBtn", function() {
   loadCards("group");
 });
