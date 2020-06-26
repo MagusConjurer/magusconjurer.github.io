@@ -114,7 +114,8 @@ var bamazon = {
   alt: "Bamazon project image",
   app: "''",
   repo: "'https://github.com/MagusConjurer/bamazon'",
-  description: "A CLI Node app that is an Amazon-like storefront with a MySQL database behind it."
+  description: "A CLI Node app that is an Amazon-like storefront with a MySQL database behind it.",
+  tech: "Node.js, Inquirer, CLI-Table, MySQL"
 };
 
 var liri = {
@@ -123,8 +124,19 @@ var liri = {
   alt: "Liri project image",
   app: "''",
   repo: "'https://github.com/MagusConjurer/https://github.com/MagusConjurer/liri-node-app'",
-  description: "A LIRI app that will search Spotify for songs, Bands in Town for concerts, and OMDB for movies."
+  description: "A LIRI app that will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
+  tech: "Node.js, Javascript, Axios, Moment.js"
 };
+
+var hopping = {
+  name: "Hopping Mad",
+  source: "./assets/images/hopping.png",
+  alt: "Hopping Mad project image",
+  app: "''",
+  repo: "'https://github.com/MagusConjurer/hopping-mad'",
+  description: "A Unity 2D platforming game created during a traditional game development course at the University of Utah.",
+  tech: "C#, Unity (2017), Maya, SourceTree"
+}
 
 var dabbler = {
   name: "Dabbler",
@@ -132,11 +144,12 @@ var dabbler = {
   alt: "Dabbler project image",
   app: "'https://magusconjurer.github.io/dabbler/'",
   repo: "'https://github.com/MagusConjurer/dabbler'",
-  description: "A webpage designed to recommend content based on your favorite movie, book, music or video game."
+  description: "A webpage designed to recommend content based on your favorite movie, book, music or video game.",
+  tech: "Bootstrap, Javascript, Jquery, Granim.js, AJAX"
 };
 
 var personalCards = [bamazon, liri] //, wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
-var groupCards = [dabbler];
+var groupCards = [hopping, dabbler];
 
 function createCards(projects) {
   var projectCard = $("<div>").addClass("row no-gutters");
@@ -161,6 +174,7 @@ function createCards(projects) {
               "<a href=" + project.repo + " class='links' target=' '>GitHub</a>" +
             "</p>" +
             "<p class='card-text'>" + project.description + "</p>" +
+            "<p class='card-text'> Technology Used: </br>" + project.tech + "</p>" +
           "</div>" +
         "</div>" +
       "</div>" +
@@ -187,7 +201,7 @@ $(document).ready(function() {
         container: "body",
         html: true,
         trigger: "hover",
-        content: function() { return "<img src='" + $(this).data("img") + "' />"; }
+        content: function() { return "<img src='" + $(this).data("img") + "' class='popover-img' />"; }
       }).triggerHandler("mouseenter");
     }
   });

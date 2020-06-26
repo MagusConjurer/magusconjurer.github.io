@@ -72,6 +72,10 @@ body {
   max-width: 100%;
 }
 
+.popover-img {
+  max-width: 50vw;
+}
+
 .portfolio-row, .portfolio-img {
   margin: 0px;
 }
