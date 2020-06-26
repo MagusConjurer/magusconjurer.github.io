@@ -108,6 +108,8 @@
 //     "</div>" +
 //   "</div>");
 
+// Personal Projects
+
 var bamazon = {
   name: "Bamazon",
   source: "./assets/images/bamazon.png",
@@ -123,10 +125,32 @@ var liri = {
   source: "./assets/images/liri.png",
   alt: "Liri project image",
   app: "''",
-  repo: "'https://github.com/MagusConjurer/https://github.com/MagusConjurer/liri-node-app'",
+  repo: "'https://github.com/MagusConjurer/liri-node-app'",
   description: "A LIRI app that will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
   tech: "Node.js, Javascript, Axios, Moment.js"
 };
+
+var wordCLI = {
+  name: "CLI Word Guess",
+  source: "./assets/images/wordCLI.png",
+  alt: "Word guess project image",
+  app: "''",
+  repo: "'https://github.com/MagusConjurer/cli-word-guess'",
+  description: "A CLI app using constructors in Node.js for a word guess game.",
+  tech: "Node.js, Javascript, Inquirer"
+};
+
+var rpg = {
+  name: "Warcraft RPG",
+  source: "./assets/images/rpg.png",
+  alt: "RPG project image",
+  app: "'https://magusconjurer.github.io/unit-4-game/'",
+  repo: "'https://github.com/MagusConjurer/unit-4-game'",
+  description: "A simple RPG.",
+  tech: "Bootstrap, Javascript, JQuery"
+}
+
+// Group Projects
 
 var hopping = {
   name: "Hopping Mad",
@@ -136,7 +160,7 @@ var hopping = {
   repo: "'https://github.com/MagusConjurer/hopping-mad'",
   description: "A Unity 2D platforming game created during a traditional game development course at the University of Utah.",
   tech: "C#, Unity (2017), Maya, SourceTree"
-}
+};
 
 var dabbler = {
   name: "Dabbler",
@@ -148,8 +172,18 @@ var dabbler = {
   tech: "Bootstrap, Javascript, Jquery, Granim.js, AJAX"
 };
 
-var personalCards = [bamazon, liri] //, wordCLI, liri, train, gifSearch, trivia, rpgGame, hangman];
-var groupCards = [hopping, dabbler];
+var tripleD = {
+  name: "Dinners, Dips & Desserts",
+  source: "./assets/images/tripleD.png",
+  alt: "Triple D project image",
+  app: "''", // "'https://bootcamp-project-02.herokuapp.com/'",
+  repo: "'https://github.com/Addison-Nance/Project-2'",
+  description: "An app to find and share recipes that allows you to create a list of the needed ingredients.",
+  tech: "Materialize, Node.js, Express.js, Handlebars, Sequelize"
+}
+
+var personalCards = [bamazon, liri, wordCLI, rpg] // train, gifSearch, trivia, hangman
+var groupCards = [hopping, dabbler, tripleD];
 
 function createCards(projects) {
   var projectCard = $("<div>").addClass("row no-gutters");
