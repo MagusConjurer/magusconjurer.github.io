@@ -32,8 +32,8 @@ body {
 }
 
 .photo {
-  max-height: 160px;
-  max-width: 160px;
+  max-width: 90%;
+  margin: 25% 5%;
 }
 
 .otherPages {

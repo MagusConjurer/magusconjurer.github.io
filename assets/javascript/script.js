@@ -110,6 +110,16 @@
 
 // Personal Projects
 
+var news = {
+  name: "News from Space",
+  source: "./assets/images/news.png",
+  alt: "News scraper project image",
+  app: "'https://news-from-space.herokuapp.com/'",
+  rep: "'https://github.com/MagusConjurer/news-scraper'",
+  description: "A web app that lets users view and leave comments on the latest news.",
+  tech: "Bootstrap, Node.js, Express, MongoDB, Handlebars"
+}
+
 var bamazon = {
   name: "Bamazon",
   source: "./assets/images/bamazon.png",
@@ -182,7 +192,7 @@ var tripleD = {
   tech: "Materialize, Node.js, Express.js, Handlebars, Sequelize"
 }
 
-var personalCards = [bamazon, liri, wordCLI, rpg] // train, gifSearch, trivia, hangman
+var personalCards = [news, bamazon, liri, wordCLI, rpg] // train, gifSearch, trivia, hangman
 var groupCards = [hopping, dabbler, tripleD];
 
 function createCards(projects) {
