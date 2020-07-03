@@ -115,7 +115,7 @@ var news = {
   source: "./assets/images/news.png",
   alt: "News scraper project image",
   app: "'https://news-from-space.herokuapp.com/'",
-  rep: "'https://github.com/MagusConjurer/news-scraper'",
+  repo: "'https://github.com/MagusConjurer/news-scraper'",
   description: "A web app that lets users view and leave comments on the latest news.",
   tech: "Bootstrap, Node.js, Express, MongoDB, Handlebars"
 }
