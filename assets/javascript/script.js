@@ -110,6 +110,16 @@
 
 // Personal Projects
 
+var memory = {
+  name: "Warcraft Memory Game",
+  source: "./assets/images/memory.png",
+  alt: "Warcraft memory game project image",
+  app: "'https://magusconjurer.github.io/warcraft-memory/'",
+  repo: "'https://github.com/MagusConjurer/warcraft-memory'",
+  description: "A web app where you try to click all the cards only once.",
+  tech: "React.js, React-Bootstrap"
+}
+
 var news = {
   name: "News from Space",
   source: "./assets/images/news.png",
@@ -192,7 +202,7 @@ var tripleD = {
   tech: "Materialize, Node.js, Express.js, Handlebars, Sequelize"
 }
 
-var personalCards = [news, bamazon, liri, wordCLI, rpg] // train, gifSearch, trivia, hangman
+var personalCards = [memory, news, bamazon, liri, wordCLI, rpg] // train, gifSearch, trivia, hangman
 var groupCards = [hopping, dabbler, tripleD];
 
 function createCards(projects) {
