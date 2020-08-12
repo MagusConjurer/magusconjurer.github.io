@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Warcraft Memory Game",
+    "source": "./assets/images/memory.png",
+    "alt": "Warcraft memory game project image",
+    "app": "'https://magusconjurer.github.io/warcraft-memory/'",
+    "repo": "'https://github.com/MagusConjurer/warcraft-memory'",
+    "description": "A web app where you try to click all the cards only once.",
+    "tech": "React.js, React-Bootstrap"
+  },
+  {
+    "name": "News from Space",
+    "source": "./assets/images/news.png",
+    "alt": "News scraper project image",
+    "app": "'https://news-from-space.herokuapp.com/'",
+    "repo": "'https://github.com/MagusConjurer/news-scraper'",
+    "description": "A web app that lets users view and leave comments on the latest news.",
+    "tech": "Bootstrap, Node.js, Express, MongoDB, Handlebars"
+  },
+  {
+    "name": "Bamazon",
+    "source": "./assets/images/bamazon.png",
+    "alt": "Bamazon project image",
+    "app": "''",
+    "repo": "'https://github.com/MagusConjurer/bamazon'",
+    "description": "A CLI Node app that is an Amazon-like storefront with a MySQL database behind it.",
+    "tech": "Node.js, Inquirer, CLI-Table, MySQL"
+  },
+  {
+    "name": "LIRI",
+    "source": "./assets/images/LIRI.png",
+    "alt": "Liri project image",
+    "app": "''",
+    "repo": "'https://github.com/MagusConjurer/liri-node-app'",
+    "description": "A LIRI app that will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
+    "tech": "Node.js, Javascript, Axios, Moment.js"
+  },
+  {
+    "name": "CLI Word Guess",
+    "source": "./assets/images/wordCLI.png",
+    "alt": "Word guess project image",
+    "app": "''",
+    "repo": "'https://github.com/MagusConjurer/cli-word-guess'",
+    "description": "A CLI app using constructors in Node.js for a word guess game.",
+    "tech": "Node.js, Javascript, Inquirer"
+  },
+  {
+    "name": "Warcraft RPG",
+    "source": "./assets/images/rpg.png",
+    "alt": "RPG project image",
+    "app": "'https://magusconjurer.github.io/unit-4-game/'",
+    "repo": "'https://github.com/MagusConjurer/unit-4-game'",
+    "description": "A simple RPG.",
+    "tech": "Bootstrap, Javascript, JQuery"
+  }
+]
