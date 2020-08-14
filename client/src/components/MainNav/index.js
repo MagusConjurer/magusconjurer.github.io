@@ -7,9 +7,9 @@ class MainNav extends Component {
     return(
       <Navbar bg="dark" variant="dark" expand='lg'>
         <Navbar.Brand href="#!">Cameron Davis</Navbar.Brand>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
         <Navbar.Collapse id="navbarMain">
           <Nav className="ml-auto">
