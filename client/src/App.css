@@ -8,3 +8,10 @@ body {
   font-family: "Nanum Gothic";
   background-image: url("./assets/images/dark_brick_wall.png");
 }
+
+.card {
+  padding: 0px;
+  border: none;
+  color: #ffffff;
+  background-color: #202020;
+}
