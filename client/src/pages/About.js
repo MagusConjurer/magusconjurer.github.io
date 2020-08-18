@@ -4,7 +4,7 @@ import AboutCard from '../components/AboutCard';
 class About extends Component {
   render() {
     return(
-      <div className="content">
+      <div>
         <AboutCard />
       </div>
     )

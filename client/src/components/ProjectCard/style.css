@@ -1,0 +1,34 @@
+.portfolio-card {
+  background-color: #343a40;
+  padding: 15px;
+  margin: 10px 4%
+}
+
+.portfolio-title {
+  background-color: #4aaaa5;
+  margin: -19px 0px 0px 0px;
+  padding: 5px;
+}
+
+.popover {
+  background-color: #202020;
+  max-width: 100%;
+}
+
+.popover-img {
+  max-width: 50vw;
+}
+
+.portfolio-row, .portfolio-img {
+  margin: 0px;
+}
+
+.portfolioCol, .portfolioBody {
+  padding: 5px;
+}
+
+
+#portfolioBtns {
+  text-align: center;
+  margin: 20px 0px;
+}
