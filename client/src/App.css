@@ -21,3 +21,16 @@ body {
   margin-bottom: 100px;
   background-color: #202020;
 }
+
+.links:link, .links:visited {
+  color: #A7C8C6;
+  text-decoration: underline;
+}
+
+.links:hover {
+  color: #84DFDB;
+}
+
+.links:active {
+  color:#4aaaa5;
+}
