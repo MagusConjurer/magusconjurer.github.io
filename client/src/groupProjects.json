@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Pick Their Brain",
+    "source": "ptb.png",
+    "alt": "Brain Picker project image",
+    "app": "https://pick-their-brain.herokuapp.com/",
+    "repo": "https://github.com/MagusConjurer/brain-picker",
+    "description": "An app that allows you to complete more dynamic quizzes that categorize the users.",
+    "tech": "Materialize, MongoDB, Express, React, Node"
+  },
+  {
+    "name": "Hopping Mad",
+    "source": "hopping.png",
+    "alt": "Hopping Mad project image",
+    "app": "",
+    "repo": "https://github.com/MagusConjurer/hopping-mad",
+    "description": "A Unity 2D platforming game created during a traditional game development course at the University of Utah.",
+    "tech": "C#, Unity (2017), Maya, SourceTree"
+  },
+  {
+    "name": "Dabbler",
+    "source": "dabbler.png",
+    "alt": "Dabbler project image",
+    "app": "https://magusconjurer.github.io/dabbler/",
+    "repo": "https://github.com/MagusConjurer/dabbler",
+    "description": "A webpage designed to recommend content based on your favorite movie, book, music or video game.",
+    "tech": "Bootstrap, Javascript, Jquery, Granim.js, AJAX"
+  }, 
+  {
+    "name": "Dinners, Dips & Desserts",
+    "source": "tripleD.png",
+    "alt": "Triple D project image",
+    "app": "",
+    "repo": "https://github.com/Addison-Nance/Project-2",
+    "description": "An app to find and share recipes that allows you to create a list of the needed ingredients.",
+    "tech": "Materialize, Node.js, Express.js, Handlebars, Sequelize"
+  }
+]

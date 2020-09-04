@@ -1,0 +1,37 @@
+.portfolio-card {
+  background-color: #343a40;
+  padding: 15px;
+  margin: 10px 5px
+}
+
+.portfolio-title {
+  background-color: #4aaaa5;
+  margin: 0px 0px 0px 0px;
+  padding: 5px;
+}
+
+#image-tooltip {
+  opacity: 1!important;
+}
+#image-tooltip > .tooltip-inner {
+  background-color: #202020;
+  max-width: 100%!important;
+}
+
+@media screen and (max-width:768px) {
+  #image-tooltip {
+    display: none
+  }
+}
+
+.popover-img {
+  max-width: 40vw;
+}
+
+.portfolio-row, .portfolio-img {
+  margin: 0px;
+}
+
+.portfolioCol, .portfolioBody {
+  padding: 5px;
+}
