@@ -21,8 +21,8 @@ function App() {
       <div className="container">
         <Router>
           <Switch>
-            <Route path="/projects" component={Projects} />
-            <Route path="/*" component={About} />
+            <Route path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
+            <Route path={process.env.PUBLIC_URL + "/*"} component={About} />
           </Switch>
         </Router>
       </div>
