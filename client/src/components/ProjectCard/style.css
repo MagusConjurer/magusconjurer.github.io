@@ -10,13 +10,22 @@
   padding: 5px;
 }
 
-.popover {
+#image-tooltip {
+  opacity: 1!important;
+}
+#image-tooltip > .tooltip-inner {
   background-color: #202020;
-  max-width: 100%;
+  max-width: 100%!important;
+}
+
+@media screen and (max-width:768px) {
+  #image-tooltip {
+    display: none
+  }
 }
 
 .popover-img {
-  max-width: 50vw;
+  max-width: 40vw;
 }
 
 .portfolio-row, .portfolio-img {

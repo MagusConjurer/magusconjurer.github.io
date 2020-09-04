@@ -25,11 +25,9 @@ class Projects extends Component {
           <Button variant="dark" className="btn mr-auto" onClick={() => this.changeProjects("group")}>Group Projects</Button>
         </div>
         <div className="column">
-          <div className="row">
           {this.state.projectType === "personal"
             ? personalProjects.map((card, index) => <ProjectCard key={index} card={card} />)
             : groupProjects.map((card, index) => <ProjectCard key={index} card={card} />)}
-          </div>
         </div>
       </div>
     )
