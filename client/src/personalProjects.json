@@ -1,7 +1,7 @@
 [
   {
     "name": "Warcraft Memory Game",
-    "source": "./assets/images/memory.png",
+    "source": "memory.png",
     "alt": "Warcraft memory game project image",
     "app": "https://magusconjurer.github.io/warcraft-memory/",
     "repo": "https://github.com/MagusConjurer/warcraft-memory",
@@ -10,7 +10,7 @@
   },
   {
     "name": "News from Space",
-    "source": "./assets/images/news.png",
+    "source": "news.png",
     "alt": "News scraper project image",
     "app": "https://news-from-space.herokuapp.com/",
     "repo": "https://github.com/MagusConjurer/news-scraper",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Bamazon",
-    "source": "./assets/images/bamazon.png",
+    "source": "bamazon.png",
     "alt": "Bamazon project image",
     "app": "",
     "repo": "https://github.com/MagusConjurer/bamazon",
@@ -28,7 +28,7 @@
   },
   {
     "name": "LIRI",
-    "source": "./assets/images/LIRI.png",
+    "source": "LIRI.png",
     "alt": "Liri project image",
     "app": "",
     "repo": "https://github.com/MagusConjurer/liri-node-app",
@@ -37,7 +37,7 @@
   },
   {
     "name": "CLI Word Guess",
-    "source": "./assets/images/wordCLI.png",
+    "source": "wordCLI.png",
     "alt": "Word guess project image",
     "app": "",
     "repo": "https://github.com/MagusConjurer/cli-word-guess",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Warcraft RPG",
-    "source": "./assets/images/rpg.png",
+    "source": "rpg.png",
     "alt": "RPG project image",
     "app": "https://magusconjurer.github.io/unit-4-game/",
     "repo": "https://github.com/MagusConjurer/unit-4-game",

@@ -1,14 +1,15 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import images from "../../assets/images";
 import './style.css';
 
+
 function ProjectCard(props) {
-  console.log(props.card.source)
     return (
       <Card className='col-md-5 portfolio-card'>
         <div className='row portfolio-row'>
           <div className='col-md-2 portfolioCol'> 
-            <Card.Img src={props.card.source} className='portfolio-img' alt={props.card.alt} data-toggle='popover' data-img={props.card.source} />
+            <Card.Img src={images[props.card.source]} className='portfolio-img' alt={props.card.alt} data-toggle='popover' data-img={props.card.source} />
           </div>
           <div className='col-md-10 portfolioCol'>
             <Card.Body className=' portfolioBody'>
