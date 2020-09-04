@@ -1,6 +1,5 @@
 .container {
   position: relative;
-  height: 100vh;
   padding: 0px;
 }
 
@@ -13,5 +12,12 @@ body {
   padding: 0px;
   border: none;
   color: #ffffff;
+  background-color: #202020;
+}
+
+.content {
+  padding: 5px;
+  margin-top: 2%;
+  margin-bottom: 100px;
   background-color: #202020;
 }

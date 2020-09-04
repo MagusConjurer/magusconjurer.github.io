@@ -16,14 +16,16 @@ function App() {
   );
 
   return (
-    <div className="container">
+    <div>
       <MainNav />
-      <Router>
-        <Switch>
-          <Route path="/projects" component={Projects} />
-          <Route path="/*" component={About} />
-        </Switch>
-      </Router>
+      <div className="container">
+        <Router>
+          <Switch>
+            <Route path="/projects" component={Projects} />
+            <Route path="/*" component={About} />
+          </Switch>
+        </Router>
+      </div>
       <MainFooter />
     </div>
   );
