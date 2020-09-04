@@ -7,5 +7,6 @@ export default {
   "news.png": require("./news.png"),
   "rpg.png": require("./rpg.png"),
   "tripleD.png": require("./tripleD.png"),
-  "wordCLI.png": require("./wordCLI.png")
+  "wordCLI.png": require("./wordCLI.png"),
+  "ptb.png": require("./ptb.png")
 }
