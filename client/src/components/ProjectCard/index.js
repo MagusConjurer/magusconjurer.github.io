@@ -28,7 +28,9 @@ function ProjectCard(props) {
             <Card.Title className='portfolio-title'>{props.card.name}</Card.Title>
             <Card.Text>{props.card.description}</Card.Text> 
             <Card.Text> Technology Used: {props.card.tech} </Card.Text>
-            <Card.Link href={props.card.app} className='links' target=' '>App</Card.Link>
+            {props.card.app != '' &&
+              <Card.Link href={props.card.app} className='links' target=' '>App</Card.Link>
+            }
             <Card.Link href={props.card.repo} className='links' target=' '>GitHub</Card.Link>
           </Card.Body> 
         </div>
