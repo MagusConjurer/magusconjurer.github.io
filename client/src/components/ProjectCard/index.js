@@ -17,10 +17,10 @@ function ProjectCard(props) {
             delay={{show: 200, hide:200}} 
             overlay={
               <Tooltip id="image-tooltip" {...props}>
-                <Image className="popover-img" src={images[props.card.source]} rounded />
+                <Image className="popover-img" src={images[props.card.source].default} rounded />
               </Tooltip>}
           >
-            <Card.Img src={images[props.card.source]} className='portfolio-img' alt={props.card.alt} />
+            <Card.Img src={images[props.card.source].default} className='portfolio-img' alt={props.card.alt} />
           </OverlayTrigger>
         </div>
         <div className='col-md-10 portfolioCol'>
@@ -28,7 +28,7 @@ function ProjectCard(props) {
             <Card.Title className='portfolio-title'>{props.card.name}</Card.Title>
             <Card.Text>{props.card.description}</Card.Text> 
             <Card.Text> Technology Used: {props.card.tech} </Card.Text>
-            {props.card.app != '' &&
+            {props.card.app !== '' &&
               <Card.Link href={props.card.app} className='links' target=' '>App</Card.Link>
             }
             <Card.Link href={props.card.repo} className='links' target=' '>GitHub</Card.Link>

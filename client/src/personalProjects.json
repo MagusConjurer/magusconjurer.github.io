@@ -1,5 +1,14 @@
 [
   {
+    "name": "Learn C++ and Make Video Games",
+    "source": "simpleshooter.png",
+    "alt": "SimpleShooter game project image",
+    "app": "",
+    "repo": "https://github.com/MagusConjurer/gamedev-unreal",
+    "description": "Five different games of increasing complexity completed as part of the course by GameDev.tv.",
+    "tech": "C++, Unreal Engine 4.22 and 4.25"
+  },
+  {
     "name": "Warcraft Memory Game",
     "source": "memory.png",
     "alt": "Warcraft memory game project image",
