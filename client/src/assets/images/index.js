@@ -7,6 +7,7 @@ const images = {
     "news.png": require("./news.png"),
     "rpg.png": require("./rpg.png"),
     "simpleshooter.png": require("./simpleshooter.png"),
+    "sorcerer.png": require("./sorcerer.png"),
     "tripleD.png": require("./tripleD.png"),
     "wordCLI.png": require("./wordCLI.png"),
     "ptb.png": require("./ptb.png")

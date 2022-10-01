@@ -1,5 +1,14 @@
 [
   {
+    "name": "Sorcerer's Storm",
+    "source": "sorcerer.png",
+    "alt": "Sorcerer's Storm title screen image",
+    "app": "https://magusconjurer.itch.io/sorcerers-storm",
+    "repo": "https://github.com/MagusConjurer/SorcerersStorm",
+    "description": "A card game",
+    "tech": "C#, Unity"
+  },
+  {
     "name": "Learn C++ and Make Video Games",
     "source": "simpleshooter.png",
     "alt": "SimpleShooter game project image",
