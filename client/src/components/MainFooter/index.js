@@ -8,9 +8,8 @@ class MainFooter extends Component {
       <footer className="bg-dark">
           <span>
             <a href="https://github.com/MagusConjurer" className="contact" target=" "><FontAwesomeIcon icon={["fab", "github"]} size="2x" color="rebeccapurple" /></a>
-            <a href="https://www.linkedin.com/in/cameron-davis-629770118/" className="contact" target=" "><FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" color="#2867B2" /></a>
+            <a href="https://www.linkedin.com/in/cameron-davis-futuregamedeveloper/" className="contact" target=" "><FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" color="#2867B2" /></a>
             <a href="mailto:cameronisadavis@gmail.com" className="contact" target=" "><FontAwesomeIcon icon={["fas", "envelope"]} size="2x" color="lightgray" /></a>
-            <a href="tel:801-597-9601" className="contact"><FontAwesomeIcon icon={['fas', 'phone']} size="2x" color="lightgray" /></a>
           </span>
       </footer>
     )
