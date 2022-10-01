@@ -1,37 +1,90 @@
 .portfolio-card {
   background-color: #343a40;
   padding: 15px;
-  margin: 10px 5px
+  margin: 10px;
 }
 
 .portfolio-title {
   background-color: #4aaaa5;
-  margin: 0px 0px 0px 0px;
   padding: 5px;
 }
 
-#image-tooltip {
-  opacity: 1!important;
-}
-#image-tooltip > .tooltip-inner {
-  background-color: #202020;
-  max-width: 100%!important;
-}
-
-@media screen and (max-width:768px) {
-  #image-tooltip {
-    display: none
-  }
-}
-
-.popover-img {
-  max-width: 40vw;
-}
-
-.portfolio-row, .portfolio-img {
+.portfolio-img {
   margin: 0px;
 }
 
-.portfolioCol, .portfolioBody {
-  padding: 5px;
+@media screen and (min-width:1200px){
+  .portfolio-title {
+    font-size: 19px;
+  }
+  .card-text, .card-link{
+    font-size: 16px;
+  }
 }
+
+@media screen and (max-width:1200px){
+  .portfolio-title {
+    font-size: 16px;
+  }
+  .card-text, .card-link{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:992px){
+  .portfolio-title {
+    font-size: 11px;
+  }
+  .card-text, .card-link{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .portfolio-title {
+    font-size: 13px;
+  }
+  .card-text, .card-link{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:576px){
+  .portfolio-title {
+    font-size: 5vw;
+  }
+  .card-text, .card-link{
+    font-size: 4vw;
+  }
+}
+
+/*Code flip example from https://ordinarycoders.com/blog/article/codepen-bootstrap-card-hovers*/
+.card-block {
+  width: 100%;
+  top: 0;
+  left:0;
+  padding: 5px;
+  position: absolute;
+}
+.card-flip {
+  position: relative;
+  width: auto;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-out;
+  background: #343a40;
+}
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+.card-flip .card-front {
+  position: relative;
+  z-index: 1;
+}
+.card-flip .card-back {
+  z-index: 0;
+  transform: rotateY(-180deg);
+}
+.portfolio-card:hover .card-flip{
+  transform: rotateY(180deg);
+} 

@@ -1,5 +1,13 @@
+.portfolioBody {
+  padding: 5px;
+}
+
 .portfolioBtns {
   text-align: center;
+}
+
+.portfolioCol {
+  padding: 5px;
 }
 
 .btn {

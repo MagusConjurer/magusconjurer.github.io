@@ -6,12 +6,12 @@ import './style.css';
 class AboutCard extends Component{
   render() {
     return(
-      <Card class="border-dark">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <Card.Img src={Photo} class="card-img photo" alt="Photo of me" />
+      <Card className="border-dark">
+        <div className="row no-gutters">
+          <div className="col-md-4">
+            <Card.Img src={Photo} className="card-img photo" alt="Photo of me" />
           </div>
-          <div class="col-md-8">
+          <div className="col-md-8">
             <Card.Body>
               <Card.Title>About Me</Card.Title>
               <hr/>

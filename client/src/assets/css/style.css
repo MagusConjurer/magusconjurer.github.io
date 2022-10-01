@@ -55,41 +55,6 @@ body {
   color:#4aaaa5;
 }
 
-.portfolio-card {
-  background-color: #343a40;
-  padding: 15px;
-  margin: 10px 4%
-}
-
-.portfolio-title {
-  background-color: #4aaaa5;
-  margin: -19px 0px 0px 0px;
-  padding: 5px;
-}
-
-.popover {
-  background-color: #202020;
-  max-width: 100%;
-}
-
-.popover-img {
-  max-width: 50vw;
-}
-
-.portfolio-row, .portfolio-img {
-  margin: 0px;
-}
-
-.portfolioCol, .portfolioBody {
-  padding: 5px;
-}
-
-
-#portfolioBtns {
-  text-align: center;
-  margin: 20px 0px;
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -102,22 +67,7 @@ footer {
   color: #ffffff;
 }
 
-@media screen and (min-width:992px){
-  .portfolioTitles {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width:991px){
-  .portfolioTitles {
-    font-size: 12px;
-  }
-}
-
 @media screen and (max-width:767px){
-  .portfolioTitles {
-    font-size: 18px;
-  }
   .photo {
     display: block;
     margin: 0px auto;
@@ -129,9 +79,6 @@ footer {
 }
 
 @media screen and (max-width:459px){
-  .portfolioTitles {
-    font-size: 2.5vw;
-  }
   .otherPages {
     font-size: 3vw;
   }
