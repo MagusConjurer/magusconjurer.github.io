@@ -8,7 +8,7 @@ function ProjectCard(props) {
     <Card key={props.card.tag} bg="dark" className='portfolio-card'>
       <div className="card-flip">
         <div className="card-front card-block">
-          <Card.Img src={images[props.card.source].default} className='portfolio-img' alt={props.card.alt} />
+          <Card.Img src={images[props.card.source]} className='portfolio-img' alt={props.card.alt} />
         </div>
         <div className="card-back card-block">
           <Card.Title className='portfolio-title'>{props.card.name}</Card.Title>
