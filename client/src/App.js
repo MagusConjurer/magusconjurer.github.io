@@ -3,28 +3,28 @@ import MainNav from './components/MainNav';
 import MainFooter from './components/MainFooter';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 function App() {
 
   library.add(
-    faGithub, faLinkedin, faPhone,faEnvelope
+    faGithub, faLinkedin, faEnvelope
   );
 
   return (
     <div>
       <MainNav />
       <div className="container">
-        <Router>
-          <Switch>
-            <Route path={"/projects"} component={Projects} />
-            <Route path={"/*"} component={About} />
-          </Switch>
-        </Router>
+        <BrowserRouter>
+          <Routes>
+            <Route path={"/projects"} element={<Projects />} />
+            <Route path={"/*"} element={<About />} />
+          </Routes>
+        </BrowserRouter>
       </div>
       <MainFooter />
     </div>

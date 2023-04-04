@@ -15,9 +15,11 @@ function ProjectCard(props) {
           <Card.Text>{props.card.description}</Card.Text> 
           <Card.Text> Technology Used: {props.card.tech} </Card.Text>
           {props.card.app !== '' &&
-              <Card.Link href={props.card.app} className='links' target=' '>App</Card.Link>
+            <Card.Link href={props.card.app} className='links' target=' '>App</Card.Link>
           }
-          <Card.Link href={props.card.repo} className='links' target=' '>GitHub</Card.Link>
+          {props.card.repo !== ''&&
+            <Card.Link href={props.card.repo} className='links' target=' '>GitHub</Card.Link>
+          }
         </div>
       </div>
     </Card>
