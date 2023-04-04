@@ -5,8 +5,9 @@
 This is a page to provide others to easily view my projects and other information.
 
 ## Technology Used
-- HTML
-- CSS
 - Bootstrap
+- CSS
+- HTML
 - Javascript
 - jQuery
+- React
