@@ -4,8 +4,8 @@
     "source": "",
     "alt": "Safe Spaces project image",
     "app": "https://magusconjurer.itch.io/safe-spaces",
-    "repo": "",
-    "description": "A 2D game created during an alternative/serious game development course at the University of Utah.",
+    "repo": "https://github.com/MagusConjurer/assorted-fruits-game",
+    "description": "Team Size: 8 \n A 2D game created during an alternative/serious game development course at the University of Utah.",
     "tech": "GameMaker"
   },
   {
@@ -14,7 +14,7 @@
     "alt": "Hopping Mad project image",
     "app": "",
     "repo": "https://github.com/MagusConjurer/hopping-mad",
-    "description": "A Unity 2D platforming game created during a traditional game development course at the University of Utah.",
+    "description": "Team Size: 4 \n A 2D platforming game created during a traditional game development course at the University of Utah.",
     "tech": "C#, Unity (2017), Maya, SourceTree"
   }
 ]
