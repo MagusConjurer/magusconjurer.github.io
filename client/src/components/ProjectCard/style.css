@@ -88,3 +88,7 @@
 .portfolio-card:hover .card-flip{
   transform: rotateY(180deg);
 } 
+
+.css-fix {
+  white-space: pre-wrap;
+}

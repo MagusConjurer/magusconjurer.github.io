@@ -12,7 +12,7 @@ function ProjectCard(props) {
         </div>
         <div className="card-back card-block">
           <Card.Title className='portfolio-title'>{props.card.name}</Card.Title>
-          <Card.Text>{props.card.description}</Card.Text> 
+          <Card.Text className='css-fix'>{props.card.description}</Card.Text> 
           <Card.Text> Technology Used: {props.card.tech} </Card.Text>
           {props.card.app !== '' &&
             <Card.Link href={props.card.app} className='links' target=' '>App</Card.Link>

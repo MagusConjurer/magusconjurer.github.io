@@ -10,7 +10,8 @@ const images = {
     "sorcerer.png": require("./sorcerer.png"),
     "tripleD.png": require("./tripleD.png"),
     "wordCLI.png": require("./wordCLI.png"),
-    "ptb.png": require("./ptb.png")
+    "ptb.png": require("./ptb.png"),
+    "safe_spaces.png": require("./safe_spaces.png")
 }
 
 export default images;
