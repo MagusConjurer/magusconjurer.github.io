@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.02b34836.css",
-    "main.js": "/static/js/main.6d2e2a6c.js",
-    "static/media/cameron-photo.jpg": "/static/media/cameron-photo.273136d710e375d57e83.jpg",
+    "main.css": "/static/css/main.658fd1bb.css",
+    "main.js": "/static/js/main.d8078c16.js",
+    "static/media/safe_spaces.png": "/static/media/safe_spaces.35da2e4577642bc5ec00.png",
+    "static/media/cameron-photo.jpg": "/static/media/cameron-photo.87adabfb17e4a68c0cf4.jpg",
     "static/media/memory.png": "/static/media/memory.b1c6075757a44ad2a1eb.png",
     "static/media/rpg.png": "/static/media/rpg.ed36c2bc8666e56f04a0.png",
     "static/media/tripleD.png": "/static/media/tripleD.0f730fd43f8f68b6c8e5.png",
@@ -16,11 +17,11 @@
     "static/media/LIRI.png": "/static/media/LIRI.98e4693f8839d448f9d3.png",
     "static/media/wordCLI.png": "/static/media/wordCLI.848967b5d86c44c751ca.png",
     "index.html": "/index.html",
-    "main.02b34836.css.map": "/static/css/main.02b34836.css.map",
-    "main.6d2e2a6c.js.map": "/static/js/main.6d2e2a6c.js.map"
+    "main.658fd1bb.css.map": "/static/css/main.658fd1bb.css.map",
+    "main.d8078c16.js.map": "/static/js/main.d8078c16.js.map"
   },
   "entrypoints": [
-    "static/css/main.02b34836.css",
-    "static/js/main.6d2e2a6c.js"
+    "static/css/main.658fd1bb.css",
+    "static/js/main.d8078c16.js"
   ]
 }
