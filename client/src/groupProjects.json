@@ -1,5 +1,14 @@
 [
   {
+    "name": "Barnacles, Beers and Brawls (2024)",
+    "source": "barnacles.png",
+    "alt": "Barnacles Beers and Brawls Logo",
+    "app": "https://magusconjurer.itch.io/barnacles-beers-and-brawls",
+    "repo": "",
+    "description": "Team Size: 27\n\nA pirate bar management sim where you complete minigames and take care of your customers to make a profit before the time runs out.",
+    "tech": "UE5.2, Visual Studio, Perforce Helix Core"
+  },
+  {
     "name": "Safe Spaces (2023)",
     "source": "safe_spaces.png",
     "alt": "Safe Spaces project image",

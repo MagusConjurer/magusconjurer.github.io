@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
-import Stack from 'react-bootstrap/Stack';
 import Photo from '../../assets/images/cameron-photo.jpg';
 import './style.css';
 
@@ -21,11 +20,12 @@ class AboutCard extends Component{
                 I am a software developer with a passion for game development and over six years of work in customer support. 
                 Games have been a major part of my life ever since I would watch my older brother playing games on his computer
                 or when we would fight over which two siblings got to use the Super Nintendo. Some of the games that have fed my passion are
-                Age of Mythology, Civilization: Call to Power, Mario Kart {'('} 64, Wii, 8{')'}, Minecraft, Super Mario Brothers, Unreal Tournament, 
-                Warcraft III, Warframe, and the original Zoo Tycoon: Complete Collection.
+                Age of Mythology, Assassin's Creed Odyssey, Civilization: Call to Power, Disney Dreamlight Valley, Hellblade: Senua's Sacrifice, Hollow Knight, 
+                Mario Kart {'('} 64, Wii, 8{')'}, Minecraft, Runescape, Super Mario Brothers, Unreal Tournament, Warcraft III, Warframe, 
+                and the original Zoo Tycoon: Complete Collection.
               </Card.Text>
               <Card.Text>
-                My goal is to join a like-minded team to create games that people enjoy. At every career fair offered by my junior high and high school, I always
+                My goal is to join a team that create great games in a diverse and healthy work environment. At every career fair offered by my junior high and high school, I always
                 made sure to attend the presentation by local game developers. In 2020 I completed a 12 week Full Stack Development bootcamp through the University of Utah. 
                 Currently I am working towards my bachelor's degree in Computer Science with an Entertainment Arts and Engineering (EAE) emphasis at the University of Utah. 
                 In August 2023 the EAE program became the Utah Division of Games. By May 2024 I will have completed my senior capstone project.
@@ -43,9 +43,11 @@ class AboutCard extends Component{
                 Coursework <br/>
                 <Badge bg='' className='skill-badge'>Algorithms</Badge>
                 <Badge bg='' className='skill-badge'>Artificial Intelligence</Badge>
-                <Badge bg='' className='skill-badge'>Computer Graphics</Badge>
                 <Badge bg='' className='skill-badge'>Computer Architecture</Badge>
+                <Badge bg='' className='skill-badge'>Computer Graphics</Badge>
+                <Badge bg='' className='skill-badge'>Computer Systems</Badge>
                 <Badge bg='' className='skill-badge'>Data Structures</Badge>
+                <Badge bg='' className='skill-badge'>Database Systems</Badge>
                 <Badge bg='' className='skill-badge'>Game Development {'('}traditional{')'}</Badge>
                 <Badge bg='' className='skill-badge'>Game Development {'('}alternative/serious{')'}</Badge>
                 <Badge bg='' className='skill-badge'>Software Practices</Badge>
@@ -59,7 +61,7 @@ class AboutCard extends Component{
                 <Badge bg='' className='skill-badge'>React</Badge>
                 <br/> Software <br/>
                 <Badge bg='' className='skill-badge'>GIT</Badge>
-                <Badge bg='' className='skill-badge'>Perforce</Badge>
+                <Badge bg='' className='skill-badge'>Perforce Helix Core</Badge>
                 <Badge bg='' className='skill-badge'>Trello</Badge>
                 <Badge bg='' className='skill-badge'>Unreal Engine 4/5</Badge>
                 <Badge bg='' className='skill-badge'>Unity</Badge>

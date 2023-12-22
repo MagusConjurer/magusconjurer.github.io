@@ -1,5 +1,6 @@
 const images = {
     "bamazon.png": require("./bamazon.png"),
+    "barnacles.png": require("./barnacles.png"),
     "dabbler.png": require("./dabbler.png"),
     "hopping.png": require("./hopping.png"),
     "LIRI.png": require("./LIRI.png"),
