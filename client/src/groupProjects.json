@@ -3,8 +3,9 @@
     "name": "Barnacles, Beers and Brawls (2024)",
     "source": "barnacles.png",
     "alt": "Barnacles Beers and Brawls Logo",
-    "app": "https://magusconjurer.itch.io/barnacles-beers-and-brawls",
-    "repo": "",
+    "itch": "https://magusconjurer.itch.io/barnacles-beers-and-brawls",
+    "steam": "https://store.steampowered.com/app/2878180/Barnacles_Beers_and_Brawls/",
+    "github": "",
     "description": "Team Size: 27\n\nA pirate bar management sim where you complete minigames and take care of your customers to make a profit before the time runs out.",
     "tech": "UE5.2, Visual Studio, Perforce Helix Core"
   },
@@ -12,8 +13,9 @@
     "name": "Safe Spaces (2023)",
     "source": "safe_spaces.png",
     "alt": "Safe Spaces project image",
-    "app": "https://magusconjurer.itch.io/safe-spaces",
-    "repo": "https://github.com/MagusConjurer/assorted-fruits-game",
+    "itch": "https://magusconjurer.itch.io/safe-spaces",
+    "steam": "",
+    "github": "https://github.com/MagusConjurer/assorted-fruits-game",
     "description": "Team Size: 7\n\n A LGBTQ+ mental health empathy game with visual novel and bullet-hell segments created during an alternative/serious game development course at the University of Utah.",
     "tech": "GameMaker, GML Code"
   },
@@ -21,8 +23,9 @@
     "name": "Hopping Mad (2017)",
     "source": "hopping.png",
     "alt": "Hopping Mad project image",
-    "app": "",
-    "repo": "https://github.com/MagusConjurer/hopping-mad",
+    "itch": "",
+    "steam": "",
+    "github": "https://github.com/MagusConjurer/hopping-mad",
     "description": "Team Size: 4\n\nA 2D platforming game created during a traditional game development course at the University of Utah.",
     "tech": "C#, Unity (2017), Maya, SourceTree"
   }

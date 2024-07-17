@@ -14,11 +14,14 @@ function ProjectCard(props) {
           <Card.Title className='portfolio-title'>{props.card.name}</Card.Title>
           <Card.Text className='css-fix'>{props.card.description}</Card.Text> 
           <Card.Text> Technology Used: {props.card.tech} </Card.Text>
-          {props.card.app !== '' &&
-            <Card.Link href={props.card.app} className='links' target=' '>App</Card.Link>
+          {props.card.itch !== '' &&
+            <Card.Link href={props.card.itch} className='links' target=' '>Itch.io</Card.Link>
           }
-          {props.card.repo !== ''&&
-            <Card.Link href={props.card.repo} className='links' target=' '>GitHub</Card.Link>
+          {props.card.steam !== '' &&
+            <Card.Link href={props.card.steam} className='links' target=' '>Steam</Card.Link>
+          }
+          {props.card.github !== ''&&
+            <Card.Link href={props.card.github} className='links' target=' '>GitHub</Card.Link>
           }
         </div>
       </div>

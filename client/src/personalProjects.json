@@ -3,8 +3,9 @@
     "name": "Sorcerer's Storm (2022)",
     "source": "sorcerer.png",
     "alt": "Sorcerer's Storm title screen image",
-    "app": "https://magusconjurer.itch.io/sorcerers-storm",
-    "repo": "https://github.com/MagusConjurer/SorcerersStorm",
+    "itch": "https://magusconjurer.itch.io/sorcerers-storm",
+    "steam": "",
+    "github": "https://github.com/MagusConjurer/SorcerersStorm",
     "description": "A digital card game started during the Summer 2022 semester as part of the Intro to Game Design class at the University of Utah.",
     "tech": "C#, Unity"
   },
@@ -12,8 +13,9 @@
     "name": "Learn C++ and Make Video Games (2021)",
     "source": "simpleshooter.png",
     "alt": "SimpleShooter game project image",
-    "app": "",
-    "repo": "https://github.com/MagusConjurer/gamedev-unreal",
+    "itch": "",
+    "steam": "",
+    "github": "https://github.com/MagusConjurer/gamedev-unreal",
     "description": "Five different games of increasing complexity completed as part of the course by GameDev.tv.",
     "tech": "C++, Unreal Engine 4.22 and 4.25"
   }
