@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 import Photo from '../../assets/images/cameron-photo.jpg';
+import Cat1 from '../../assets/images/kitty1(2024).png';
+import Cat2 from '../../assets/images/kitty2(2024).png';
 import './style.css';
 
 class AboutCard extends Component{
@@ -36,6 +38,12 @@ class AboutCard extends Component{
               </Card.Text>
               <Card.Text>
                 I am always interested in new opportunities. If you feel that I could be a good addition to your team, feel free to reach out and connect with me on LinkedIn.
+              </Card.Text>
+              <hr/>
+              <Card.Text>
+                I am also the proud father of two rescue cats. They inspire and harass me daily.
+                <Card.Img src={Cat1} className="card-img cat" alt="Tortoise shell cat" />
+                <Card.Img src={Cat2} className="card-img cat" alt="Black cat" />
               </Card.Text>
               <hr/>
               <Card.Text> 

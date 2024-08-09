@@ -3,6 +3,11 @@
   margin: 5%;
 }
 
+.cat {
+  max-width: 45%;
+  margin: 2.5%;
+}
+
 .skill-badge {
   margin: 2px 2px;
   background-color: #4aaaa5;
