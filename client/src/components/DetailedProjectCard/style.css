@@ -1,0 +1,21 @@
+.details-card {
+  background-color: #343a40;
+  margin: 10px;
+}
+
+.details-title {
+  background-color: #4aaaa5;
+  padding: 5px;
+}
+
+.details-img {
+  margin : 5px;
+}
+
+.details-desc {
+  padding : 10px;
+}
+
+.details-cont {
+  padding : 20px;
+}

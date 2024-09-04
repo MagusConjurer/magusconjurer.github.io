@@ -1,5 +1,6 @@
 [
   {
+    "tag": "bbb",
     "name": "Barnacles, Beers and Brawls (2024)",
     "source": "barnacles.png",
     "alt": "Barnacles Beers and Brawls Logo",
@@ -7,9 +8,10 @@
     "steam": "https://store.steampowered.com/app/2878180/Barnacles_Beers_and_Brawls/",
     "github": "",
     "description": "Team Size: 27\n\nA pirate bar management sim where you complete minigames and take care of your customers to make a profit before the time runs out.",
-    "tech": "UE5.2, Visual Studio, Perforce Helix Core"
+    "tech": "UE 5.2, C++, Blueprint, Visual Studio, Perforce Helix Core"
   },
   {
+    "tag": "safe_spaces",
     "name": "Safe Spaces (2023)",
     "source": "safe_spaces.png",
     "alt": "Safe Spaces project image",
@@ -20,6 +22,7 @@
     "tech": "GameMaker, GML Code"
   },
   {
+    "tag": "hopping_mad",
     "name": "Hopping Mad (2017)",
     "source": "hopping.png",
     "alt": "Hopping Mad project image",

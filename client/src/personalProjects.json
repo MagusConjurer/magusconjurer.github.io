@@ -1,5 +1,6 @@
 [
   {
+    "tag": "sorcerers_storm",
     "name": "Sorcerer's Storm (2022)",
     "source": "sorcerer.png",
     "alt": "Sorcerer's Storm title screen image",
@@ -10,6 +11,7 @@
     "tech": "C#, Unity"
   },
   {
+    "tag": "learn_cpp",
     "name": "Learn C++ and Make Video Games (2021)",
     "source": "simpleshooter.png",
     "alt": "SimpleShooter game project image",
@@ -17,6 +19,6 @@
     "steam": "",
     "github": "https://github.com/MagusConjurer/gamedev-unreal",
     "description": "Five different games of increasing complexity completed as part of the course by GameDev.tv.",
-    "tech": "C++, Unreal Engine 4.22 and 4.25"
+    "tech": "C++, UE 4.22, UE 4.25"
   }
 ]
