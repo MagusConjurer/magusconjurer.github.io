@@ -7,8 +7,14 @@
     "itch": "https://magusconjurer.itch.io/barnacles-beers-and-brawls",
     "steam": "https://store.steampowered.com/app/2878180/Barnacles_Beers_and_Brawls/",
     "github": "",
-    "description": "Team Size: 27\n\nA pirate bar management sim where you complete minigames and take care of your customers to make a profit before the time runs out.",
-    "tech": "UE 5.2, C++, Blueprint, Visual Studio, Perforce Helix Core"
+    "team": 27,
+    "time": "October 2023 - April 2024",
+    "description": "A pirate bar management sim where you complete minigames and take care of your customers to make a profit before the time runs out.",
+    "tech": "UE 5.2, C++, Blueprint, Visual Studio, Perforce Helix Core",
+    "contributions": [
+      "1",
+      "2"
+    ]
   },
   {
     "tag": "safe_spaces",
@@ -18,8 +24,14 @@
     "itch": "https://magusconjurer.itch.io/safe-spaces",
     "steam": "",
     "github": "https://github.com/MagusConjurer/assorted-fruits-game",
-    "description": "Team Size: 7\n\n A LGBTQ+ mental health empathy game with visual novel and bullet-hell segments created during an alternative/serious game development course at the University of Utah.",
-    "tech": "GameMaker, GML Code"
+    "team": 7,
+    "time": "February 2023 - May 2023",
+    "description": "A LGBTQ+ mental health empathy game with visual novel and bullet-hell segments created during an alternative/serious game development course at the University of Utah.",
+    "tech": "GameMaker, GML Code",
+    "contributions": [
+      "3",
+      "4"
+    ]
   },
   {
     "tag": "hopping_mad",
@@ -29,7 +41,12 @@
     "itch": "",
     "steam": "",
     "github": "https://github.com/MagusConjurer/hopping-mad",
-    "description": "Team Size: 4\n\nA 2D platforming game created during a traditional game development course at the University of Utah.",
-    "tech": "C#, Unity (2017), Maya, SourceTree"
+    "team": 4,
+    "time": "September 2017 - December 2017",
+    "description": "A 2D platforming game created during a traditional game development course at the University of Utah.",
+    "tech": "C#, Unity (2017), Maya, SourceTree",
+    "contributions": [
+      
+    ]
   }
 ]

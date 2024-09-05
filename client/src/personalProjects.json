@@ -7,8 +7,13 @@
     "itch": "https://magusconjurer.itch.io/sorcerers-storm",
     "steam": "",
     "github": "https://github.com/MagusConjurer/SorcerersStorm",
+    "team": 1,
+    "time": "June 2022 - August 2022",
     "description": "A digital card game started during the Summer 2022 semester as part of the Intro to Game Design class at the University of Utah.",
-    "tech": "C#, Unity"
+    "tech": "C#, Unity",
+    "contributions": [
+      
+    ]
   },
   {
     "tag": "learn_cpp",
@@ -18,7 +23,12 @@
     "itch": "",
     "steam": "",
     "github": "https://github.com/MagusConjurer/gamedev-unreal",
+    "team": 1,
+    "time": "September 2020 - March 2021",
     "description": "Five different games of increasing complexity completed as part of the course by GameDev.tv.",
-    "tech": "C++, UE 4.22, UE 4.25"
+    "tech": "C++, UE 4.22, UE 4.25",
+    "contributions": [
+      
+    ]
   }
 ]

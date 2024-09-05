@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import images from "../../assets/images";
+import { GetTeamSize, GetTech, GetLinks } from '../DetailedProjectCard';
 import './style.css';
 
 function ProjectCard(props) {
@@ -12,17 +13,12 @@ function ProjectCard(props) {
         </div>
         <div className="card-back card-block">
           <Card.Title className='portfolio-title'>{props.card.name}</Card.Title>
-          <Card.Text className='css-fix'>{props.card.description}</Card.Text> 
-          <Card.Text> Technology Used: {props.card.tech} </Card.Text>
-          {props.card.itch !== '' &&
-            <Card.Link href={props.card.itch} className='links' target=' '>Itch.io</Card.Link>
-          }
-          {props.card.steam !== '' &&
-            <Card.Link href={props.card.steam} className='links' target=' '>Steam</Card.Link>
-          }
-          {props.card.github !== ''&&
-            <Card.Link href={props.card.github} className='links' target=' '>GitHub</Card.Link>
-          }
+          <GetTeamSize team={props.card.team}/>
+          <Card.Text>{props.card.description}</Card.Text> 
+          <GetTech tech={props.card.tech}/>
+          <br/>
+          <br/>
+          <GetLinks links={props.card}/>
         </div>
       </div>
     </Card>

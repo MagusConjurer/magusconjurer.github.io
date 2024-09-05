@@ -16,6 +16,11 @@
   padding : 10px;
 }
 
+.details-cont-header {
+  margin: 20px;
+  font-weight: bold;
+}
+
 .details-cont {
-  padding : 20px;
+  margin: 10px;
 }
