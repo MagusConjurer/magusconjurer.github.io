@@ -9,26 +9,26 @@
     "github": "https://github.com/MagusConjurer/SorcerersStorm",
     "team": 1,
     "time": "June 2022 - August 2022",
-    "description": "A digital card game started during the Summer 2022 semester as part of the Intro to Game Design class at the University of Utah.",
+    "description": "A digital card game created during the Summer 2022 semester as part of the Intro to Game Design class at the University of Utah.",
     "tech": "C#, Unity",
     "contributions": [
-      
-    ]
-  },
-  {
-    "tag": "learn_cpp",
-    "name": "Learn C++ and Make Video Games (2021)",
-    "source": "simpleshooter.png",
-    "alt": "SimpleShooter game project image",
-    "itch": "",
-    "steam": "",
-    "github": "https://github.com/MagusConjurer/gamedev-unreal",
-    "team": 1,
-    "time": "September 2020 - March 2021",
-    "description": "Five different games of increasing complexity completed as part of the course by GameDev.tv.",
-    "tech": "C++, UE 4.22, UE 4.25",
-    "contributions": [
-      
+      "---- DESIGN STEPS----",
+      "Choose a verb and illustrate it with a core mechanic. The verb I chose was \"lose\" with the mechanic being that every choice has a cost.",
+      "Identify a satisfying win condition. My win/loss condition was to break the curse without losing all of your health, items, and team members.",
+      "Identify rules, obstacles and challenges. The rules included selecting a team of four characters, draw encounters and roll for them, and a game timer starting with 10 turns. When you reach an obstacle (locks, enemies, traps, skill checks), then you would choose a character to attempt to overcome it. The challenges at this point included unlocking, fighting, or meeting skill requirements.",
+      "Bring in a narrative and adjust scope. My narrative was that a sorcerer has brought a storm to the village and you must select four villagers to take on the journey to stop him. There are a limited number of turns to do this. Each obstacle you draw has a stat type that you then roll against using the stat value from the selected character. The game ends when you defeat the sorcerer or he defeats your team.",
+      "---- DEVELOPMENT ----",
+      "Implemented a card manager and scripts to handle the selection and placement of character cards.",
+      "Implemented character cards that could have different stats.",
+      "Implemented encounter cards with a specific stat and the functionality of drawing them.",
+      "Implemented the gameplay loop of drawing an encounter, selecting a character, rolling the stat, and updating the character card based on the result.",
+      "Implemented a turn tracker that is updated after each draw.",
+      "Implemented item cards that can be drawn, selected, and then assigned to boost a character's stats.",
+      "Implemented key cards that can be drawn and then used to unlock doors or chests.",
+      "Implemented boss encounter that starts on the turn and has a separate deck of encounter cards.",
+      "Update character selection to have the player confirm, rather than automatically proceed after last charact is selected.",
+      "Resolved issue where cards and button were incorrectly enabled or left on screen.",
+      "Refactor code to better handle team and boss data."
     ]
   }
 ]

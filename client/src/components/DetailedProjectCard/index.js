@@ -36,7 +36,16 @@ export function GetLinks(proj) {
 }
 
 function GetContributions(proj) {
-  return proj.contributions.map((cont, index) => <li key={index} className='details-cont'><Card.Text>{cont}</Card.Text></li>);
+  let items = proj.contributions.map((cont, index) => {
+    if (cont.includes("----")) {
+      return <Card.Text>{cont}</Card.Text>
+    } else {
+      return <li key={index} className='details-cont'><Card.Text>{cont}</Card.Text></li>;
+    }
+    
+  })
+
+  return items;
 }
 
 export default function DetailedProjectCard(props){
