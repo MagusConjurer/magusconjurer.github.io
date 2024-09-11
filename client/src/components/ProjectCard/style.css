@@ -2,6 +2,7 @@
   background-color: #343a40;
   padding: 15px;
   margin: 10px;
+  overflow-y: scroll;
 }
 
 .portfolio-title {
@@ -88,3 +89,13 @@
 .portfolio-card:hover .card-flip{
   transform: rotateY(180deg);
 } 
+
+.details-button {
+  border: none;
+  background-color: #4aaaa5;
+}
+
+.details-button:hover {
+  background-color: #84DFDB;
+}
+

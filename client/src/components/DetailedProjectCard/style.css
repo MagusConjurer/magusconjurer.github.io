@@ -24,3 +24,8 @@
 .details-cont {
   margin: 10px;
 }
+
+.details-player{
+  aspect-ratio: 16/9;
+  width: 80%;
+}

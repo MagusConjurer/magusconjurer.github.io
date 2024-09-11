@@ -8,9 +8,11 @@
     "steam": "",
     "github": "https://github.com/MagusConjurer/SorcerersStorm",
     "team": 1,
+    "role": "",
     "time": "June 2022 - August 2022",
     "description": "A digital card game created during the Summer 2022 semester as part of the Intro to Game Design class at the University of Utah.",
     "tech": "C#, Unity",
+    "video": "",
     "contributions": [
       "---- DESIGN STEPS----",
       "Choose a verb and illustrate it with a core mechanic. The verb I chose was \"lose\" with the mechanic being that every choice has a cost.",

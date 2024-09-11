@@ -3,25 +3,35 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
+import ReactPlayer from 'react-player';
 import images from "../../assets/images";
 import './style.css';
 
-export function GetTeamSize(proj) {
+function GetTeamSize(proj) {
   let teamSize = proj.team;
   if (teamSize > 1) {
-    return <Card.Text>Team Size: {teamSize} </Card.Text>;
+    return <Card.Text>Team Size : {teamSize} </Card.Text>;
   } else {
     return null;
   }
 }
 
-export function GetTech(proj) {
+function GetRole(proj) {
+  if(proj.role !== "") {
+    return <Card.Text>Role : {proj.role}</Card.Text>
+  } else {
+    return null;
+  }
+  
+}
+
+function GetTech(proj) {
   let techList = proj.tech.split(",");
   
   return techList.map((tech, index) => <Badge key={index} bg='' className='skill-badge'>{tech}</Badge>);
 }
 
-export function GetLinks(proj) {
+function GetLinks(proj) {
   return <div>
     {proj.links.itch !== '' &&
       <Card.Link href={proj.links.itch} className='links' target=' '>Itch.io</Card.Link>
@@ -36,16 +46,44 @@ export function GetLinks(proj) {
 }
 
 function GetContributions(proj) {
-  let items = proj.contributions.map((cont, index) => {
+  return proj.contributions.map((cont, index) => {
     if (cont.includes("----")) {
-      return <Card.Text>{cont}</Card.Text>
+      return <Card.Text key={index}>{cont}</Card.Text>
     } else {
       return <li key={index} className='details-cont'><Card.Text>{cont}</Card.Text></li>;
     }
     
   })
+}
 
-  return items;
+function GetGameplayVid(proj) {
+  if(proj.video !== "") {
+    return <Row >
+            <Col>
+              <Card.Text className="details-cont-header">Gameplay Video</Card.Text>
+              <div align="center">
+                <div className="details-player">
+                  <ReactPlayer width="100%" height="100%" url={proj.video} controls={true} />
+                </div>
+              </div>
+            </Col>
+          </Row>
+  } else {
+    return null;
+  }
+}
+
+export function GetBasicDetails(props) {
+  return <div>
+    <GetTeamSize team={props.props.team}/>
+    <GetRole role={props.props.role}/>
+    <Card.Text>Development Time : {props.props.time}</Card.Text>
+    <Card.Text>{props.props.description}</Card.Text> 
+    <GetTech tech={props.props.tech}/>
+    <br/>
+    <br/>
+    <GetLinks links={props.props}/>
+  </div>
 }
 
 export default function DetailedProjectCard(props){
@@ -57,16 +95,11 @@ export default function DetailedProjectCard(props){
           <Card.Img src={images[props.proj.source]} className="details-img" alt={props.proj.alt} />
         </Col>
         <Col sm="9"> 
-          <GetTeamSize team={props.proj.team}/>
-          <Card.Text>Development Time: {props.proj.time}</Card.Text>
-          <Card.Text>{props.proj.description}</Card.Text> 
-          <GetTech tech={props.proj.tech}/>
-          <br/>
-          <br/>
-          <GetLinks links={props.proj}/>
+          <GetBasicDetails props={props.proj}/>
         </Col>
       </Row>
       <hr />
+      <GetGameplayVid video={props.proj.video}/>
       <Row>
         <Col>
           <Card.Text className="details-cont-header"> Contributions </Card.Text>

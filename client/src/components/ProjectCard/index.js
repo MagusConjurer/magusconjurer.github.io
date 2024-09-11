@@ -1,8 +1,15 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import images from "../../assets/images";
-import { GetTeamSize, GetTech, GetLinks } from '../DetailedProjectCard';
+import { GetBasicDetails } from '../DetailedProjectCard';
 import './style.css';
+
+function GetDetailsButton(props) {
+  return <div align="center">
+            <Button className="details-button" href={window.location.href + "/" + props.props.tag}>More Details</Button>
+         </div>
+}
 
 function ProjectCard(props) {
   return (
@@ -12,13 +19,8 @@ function ProjectCard(props) {
           <Card.Img src={images[props.card.source]} className='portfolio-img' alt={props.card.alt} />
         </div>
         <div className="card-back card-block">
-          <Card.Title className='portfolio-title'>{props.card.name}</Card.Title>
-          <GetTeamSize team={props.card.team}/>
-          <Card.Text>{props.card.description}</Card.Text> 
-          <GetTech tech={props.card.tech}/>
-          <br/>
-          <br/>
-          <GetLinks links={props.card}/>
+          <GetBasicDetails props={props.card}/>
+          <GetDetailsButton props={props.card}/>
         </div>
       </div>
     </Card>
