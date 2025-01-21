@@ -22,14 +22,14 @@ class AboutCard extends Component{
                 I am a software developer with a passion for game development and over six years of work in customer support. 
                 Games have been a major part of my life ever since I would watch my older brother playing games on his computer
                 or when we would fight over which two siblings got to use the Super Nintendo. Some of the games that have fed my passion are
-                Age of Mythology, Assassin's Creed Odyssey, Civilization: Call to Power, Disney Dreamlight Valley, Hellblade: Senua's Sacrifice, Hollow Knight, 
-                Mario Kart {'('}64, Wii, 8{')'}, Minecraft, Runescape, Super Mario Brothers, Unreal Tournament, Warcraft III, Warframe, 
+                Age of Mythology, Assassin's Creed Odyssey/Valhalla, Civilization: Call to Power, Disney Dreamlight Valley, Disney Speedstorm, Hellblade: Senua's Sacrifice, Hollow Knight, 
+                Mario Kart {'('}64, Wii, 8{')'}, Minecraft, Runescape, Stardew Valley, Super Mario All-Stars, Unreal Tournament, Warcraft III, Warframe, 
                 and the original Zoo Tycoon: Complete Collection.
               </Card.Text>
               <Card.Text>
-                My goal is to join a team that create great games in a diverse and healthy work environment. At every career fair offered by my junior high and high school I attended
-                the presentations by local game developers. In 2020 I completed a 12 week Full Stack Development bootcamp through the University of Utah. 
-                I completed my senior capstone project and graduated in April 2024 with a bachelor's degree in Computer Science with an Entertainment Arts and Engineering (EAE) emphasis at the University of Utah. 
+                My goal is to join a team that creates a great product in a diverse and healthy working environment. At every career fair offered by my junior high and high school I attended
+                the presentations by local developers. In 2020 I completed a 24 week Full Stack Development bootcamp through the University of Utah. 
+                I completed my senior capstone project and graduated in May 2024 with a bachelor's degree in Computer Science with an Entertainment Arts and Engineering (EAE) emphasis at the University of Utah. 
               </Card.Text>
               <Card.Text>
                 Working in customer service allowed me to adapt to new situations and learn new systems quickly. As a top performer, 
@@ -42,7 +42,7 @@ class AboutCard extends Component{
               <hr/>
               <Card.Text>
                 I am also the proud father of two rescue cats. They inspire and harass me daily.
-                <Card.Img src={Cat1} className="card-img cat" alt="Tortoise shell cat" />
+                <Card.Img src={Cat1} className="card-img cat" alt="Torby (tortise shell / tabby) cat" />
                 <Card.Img src={Cat2} className="card-img cat" alt="Black cat" />
               </Card.Text>
               <hr/>
